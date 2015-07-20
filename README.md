@@ -23,6 +23,8 @@ End Sub
 
 This will write something like "Sheet1 was selected" in the action part of the log.
 
+For a better example of what you can do with this kind of code, in realses I've included an excel file with several examples.
+
 
 ## The Log File
 
