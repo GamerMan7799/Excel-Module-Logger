@@ -57,5 +57,20 @@ There are currently 4 constant that you can change to cause the log to be saved 
 
 **strLogFolderPath** - The path to the folder where the log files will be saved. If it is left blank it will be saved to the same folder as the workbook. Default : ""
 
+**mbytDateFormat** - The Format that the date will take in the the file name (is that is on) and in the log. Has the following options:
+* 0 = YYYY-MM-DD (Ex 2015-07-22) DEFAULT
+* 1 = MM-DD-YYYY (Ex 07-22-2015)
+* 2 = DD-MM-YYYY (Ex 22-07-2015)
+* 3 = MM-DD (EX 07-22)
+* 4 = YYYYMMDD (Ex 20150722)
+
+**mblnUseMilitaryTime** - If military time should be used. If true time AM/PM will not be included. 3:00 PM would become 15:00 instead. Default : True
+
+**mbytTimeFormat** - The format that the time will take in the log file. Has the following options:
+* 0 = HH:MM:SS (EX 15:24:23 or 3:24:23 PM) DEFAULT
+* 1 = HH:MM (EX 15:24 or 3:24 PM)
+* 2 = HHMMSS (EX 152423 or 32423 PM)
+* 3 = HHMM (EX 1524 or 324 PM)
+
 
 
