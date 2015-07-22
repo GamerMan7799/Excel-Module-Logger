@@ -42,12 +42,11 @@ Date           Time            User       | Action
 2015-07-20     09:36:13     GamerMan7799 | Workbook Closed
 ```
 
-Some time later I will likely make this easier to customize.
 
 
 ## Customization
 
-There are currently 4 constant that you can change to cause the log to be saved differently, they are:
+There are currently 7 constant that you can change to cause the log to be saved differently, they are:
 
 **gBlLogAction** - If logging is currently enabled or not, simple True or False. Default : True
 
