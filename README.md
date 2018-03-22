@@ -1,3 +1,6 @@
+# ARCHIVED
+Due to me not updating this in a while I am archiving it. 
+
 # Excel-Module-Logger
 ## How to use
 A module for Microsoft Excel that allows logging to a file.
